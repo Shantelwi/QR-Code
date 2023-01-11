@@ -11,32 +11,32 @@
         <title>Frontend Mentor | QR code component</title>
 
         <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    .desktop {width: 1440px; height: 700px; display: flex; justify-content: center;background-color: lightgray ;}
-    img {width: 220px; height: 205px;border-radius: 15px;object-fit: cover; overflow: hidden; margin-left: 15px; margin-top: 15px;}
-    .card {width: 250px;height: 400px; background-color:white; border-radius: 15px;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
-    .card-title { font-size: 15px; font-weight: 700; font-family: system-ui, -apple-system, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;text-align: center; padding: 10px;}
-    .card-description {color:grey; font-size: 15px; font-weight: 400; font-family: system-ui, -apple-system, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;text-align: center; padding: 10px;}
+    footer { font-size: 11px; text-align: center; }
+    a { color: hsl(228, 45%, 44%); }
+    body {background-color: lightgray; font-size: 15px;}
+    img {max-width: 100%;border-radius: 15px; margin-left: 15px; margin-top: 15px;}
+    .card {max-width: 300px; padding:16px; background-color:white; border-radius: 15px;min-height: 100vh;display: flex;align-items: center;justify-content: center;}
+    .card-title {font-weight: 700; font-family: system-ui, -apple-system, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;text-align: center; padding: 10px;}
+    .card-description {color:grey; font-weight: 400; font-family: system-ui, -apple-system, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;text-align: center; padding: 10px;}
     </style>
     </head>
     <body>
-        <div class="desktop">
+        <main>
             <div class="card">
                 <img src="/image-qr-code.png" alt="QR code">
-                <p class="card-title">
+                <h1>
                     Improve your front-end skills by building projects
-                </p>
+                </h1>
                 <p class="card-description">
                     Scan the QR code to visit Frontend Mentor and take your
                     coding skills to the next level
                 </p>
             </div>
-        </div>
-        <div class="attribution">
+        </main>
+        <footer>
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
                 target="_blank">Frontend Mentor</a>.
             Coded by <a href="#">Shantel Williams</a>.
-        </div>
+        </footer>
     </body>
 </html>
